@@ -5,7 +5,7 @@ import hashlib
 
 
 class PassimpayApi:
-    URL_BASE = 'https://passimpay.io/api'
+    URL_BASE = 'https://api.passimpay.io'
 
     def __init__(self, platform_id, secret_key):
         self.platform_id = platform_id
